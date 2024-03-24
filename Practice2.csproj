@@ -85,14 +85,8 @@
     <Compile Include="Windows\Editing\EditClientWindows.xaml.cs">
       <DependentUpon>EditClientWindows.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Editing\EditHouseDemantsWindows.xaml.cs">
-      <DependentUpon>EditHouseDemantsWindows.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Windows\Editing\EditHousesWindows.xaml.cs">
       <DependentUpon>EditHousesWindows.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Editing\EditLandDemantsWindows.xaml.cs">
-      <DependentUpon>EditLandDemantsWindows.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Editing\EditLandsWindows.xaml.cs">
       <DependentUpon>EditLandsWindows.xaml</DependentUpon>
@@ -188,15 +182,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Editing\EditHouseDemantsWindows.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Windows\Editing\EditHousesWindows.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Editing\EditLandDemantsWindows.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RealEstateProject"
         mc:Ignorable="d"
-        Title="Eesoft | Агенство недвижимости | Главное окно" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="Resource/Image/logo.png">
+        Title="Главное окно" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="Resource/Image/logo.png">
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -21,7 +21,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Image Source="Resource/Image/logo.png" Grid.ColumnSpan="3"/>
+        <Image Source="Resource/Image/logo.png" Grid.ColumnSpan="2" Margin="0,0,196,108" Grid.RowSpan="2"/>
 
         <Button  Grid.Column="0" Grid.Row="1" Content="Клиент" Margin="10" FontSize="32" x:Name="ClientBtn" Click="ClientBtn_Click">
             <Button.Resources>
@@ -37,15 +37,15 @@
                 </Style>
             </Button.Resources>
         </Button>
-       
-        <Button  Grid.Column="1" Grid.Row="2" Content="Недвижимость" Margin="10" FontSize="32" x:Name="EstateBtn" Click="EstateBtn_Click">
+
+        <Button  Grid.Column="1" Grid.Row="3" Content="Недвижимость" Margin="10,10,10,10" FontSize="32" x:Name="EstateBtn" Click="EstateBtn_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"/>
                 </Style>
             </Button.Resources>
         </Button>
-    
+
         <Button  Grid.Column="0" Grid.Row="3" Content="Предложения" Margin="10,10,10,10" FontSize="32" x:Name="OfferBtn" Click="OfferBtn_Click">
             <Button.Resources>
                 <Style TargetType="Border">

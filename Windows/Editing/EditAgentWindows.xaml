@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RealEstateProject.Windows.Editing"
         mc:Ignorable="d"
-        Title="Eesoft | Агенство Недвижимости | Добавление или редактирование риэлторов" Height="450" Width="800" MinHeight="450" MinWidth="800"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="Добавление или редактирование риэлторов" Height="450" Width="800" MinHeight="450" MinWidth="800"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.1*"/>

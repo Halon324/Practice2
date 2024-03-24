@@ -40,12 +40,12 @@ namespace RealEstateProject.Windows.Editing
                     if (apartmentDemandsInfo != null)
                     {
                         apartmentDemands = apartmentDemandsInfo;
-                        this.Title = "Eesoft | Агенство недвижимости | Редактирование квартиры";
+                        this.Title = "Редактирование квартиры";
                         action = "изменена";
                     }
                     else
                     {
-                        this.Title = "Eesoft | Агенство недвижимости | Добавление квартиры";
+                        this.Title = "Добавление квартиры";
                         action = "добавлена";
                     }
                     break;
@@ -53,12 +53,12 @@ namespace RealEstateProject.Windows.Editing
                     if (houseDemandsInfo != null)
                     {
                         houseDemands = houseDemandsInfo;
-                        this.Title = "Eesoft | Агенство недвижимости | Редактирование дома";
+                        this.Title = "Редактирование дома";
                         action = "изменена";
                     }
                     else
                     {
-                        this.Title = "Eesoft | Агенство недвижимости | Добавление дома";
+                        this.Title = "Добавление дома";
                         action = "добавлена";
                     }
                     break;
@@ -66,12 +66,12 @@ namespace RealEstateProject.Windows.Editing
                     if (landDemandsInfo != null)
                     {
                         landDemands = landDemandsInfo;
-                        this.Title = "Eesoft | Агенство недвижимости | Редактирование земли";
+                        this.Title = "Редактирование земли";
                         action = "изменена";
                     }
                     else
                     {
-                        this.Title = "Eesoft | Агенство недвижимости | Добавление земли";
+                        this.Title = "Добавление земли";
                         action = "добавлена";
                     }
                     break;
